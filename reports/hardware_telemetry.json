@@ -1,0 +1,580 @@
+{
+  "hostname": "aws-dco-bms-prod-0142.us-east-1.metal.internal",
+  "timestamp": "2026-11-14T07:15:51.169466Z",
+  "raid_arrays": [
+    {
+      "device": "/dev/md0",
+      "level": "raid5",
+      "state": "degraded",
+      "status_line": "[UU_]",
+      "total_devices": 4,
+      "active_devices": 2,
+      "failed_devices": 1,
+      "spare_devices": 1,
+      "component_devices": [
+        "/dev/loop10",
+        "/dev/loop11",
+        "/dev/loop12",
+        "/dev/loop13"
+      ],
+      "rebuild_progress": 34.7
+    }
+  ],
+  "disks": [
+    {
+      "device": "/dev/loop10",
+      "model": "WDC WUH721818ALE6L4",
+      "serial": "WMC2K1R4F",
+      "firmware": "83.00A83",
+      "smart_health": "FAILED",
+      "temperature_c": 52,
+      "power_on_hours": 34819,
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Raw_Read_Error_Rate",
+          "value": 160,
+          "worst": 133,
+          "threshold": 51,
+          "raw_value": 2814,
+          "status": "WARNING"
+        },
+        {
+          "id": 3,
+          "name": "Spin_Up_Time",
+          "value": 170,
+          "worst": 165,
+          "threshold": 21,
+          "raw_value": 4812,
+          "status": "OK"
+        },
+        {
+          "id": 4,
+          "name": "Start_Stop_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 42,
+          "status": "OK"
+        },
+        {
+          "id": 5,
+          "name": "Reallocated_Sector_Ct",
+          "value": 132,
+          "worst": 132,
+          "threshold": 140,
+          "raw_value": 544,
+          "status": "CRITICAL"
+        },
+        {
+          "id": 7,
+          "name": "Seek_Error_Rate",
+          "value": 183,
+          "worst": 175,
+          "threshold": 51,
+          "raw_value": 1247,
+          "status": "WARNING"
+        },
+        {
+          "id": 9,
+          "name": "Power_On_Hours",
+          "value": 72,
+          "worst": 72,
+          "threshold": 0,
+          "raw_value": 34819,
+          "status": "OK"
+        },
+        {
+          "id": 10,
+          "name": "Spin_Retry_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 12,
+          "name": "Power_Cycle_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 67,
+          "status": "OK"
+        },
+        {
+          "id": 194,
+          "name": "Temperature_Celsius",
+          "value": 95,
+          "worst": 88,
+          "threshold": 0,
+          "raw_value": 52,
+          "status": "OK"
+        },
+        {
+          "id": 197,
+          "name": "Current_Pending_Sector",
+          "value": 196,
+          "worst": 196,
+          "threshold": 0,
+          "raw_value": 48,
+          "status": "CRITICAL"
+        },
+        {
+          "id": 198,
+          "name": "Offline_Uncorrectable",
+          "value": 196,
+          "worst": 196,
+          "threshold": 0,
+          "raw_value": 48,
+          "status": "WARNING"
+        },
+        {
+          "id": 199,
+          "name": "UDMA_CRC_Error_Count",
+          "value": 198,
+          "worst": 198,
+          "threshold": 0,
+          "raw_value": 7,
+          "status": "CRITICAL"
+        }
+      ]
+    },
+    {
+      "device": "/dev/loop11",
+      "model": "WDC WUH721818ALE6L4",
+      "serial": "WMC5G3N7P",
+      "firmware": "83.00A83",
+      "smart_health": "PASSED",
+      "temperature_c": 34,
+      "power_on_hours": 12847,
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Raw_Read_Error_Rate",
+          "value": 200,
+          "worst": 200,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 3,
+          "name": "Spin_Up_Time",
+          "value": 176,
+          "worst": 175,
+          "threshold": 21,
+          "raw_value": 4375,
+          "status": "OK"
+        },
+        {
+          "id": 4,
+          "name": "Start_Stop_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 18,
+          "status": "OK"
+        },
+        {
+          "id": 5,
+          "name": "Reallocated_Sector_Ct",
+          "value": 200,
+          "worst": 200,
+          "threshold": 140,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 7,
+          "name": "Seek_Error_Rate",
+          "value": 200,
+          "worst": 200,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 9,
+          "name": "Power_On_Hours",
+          "value": 97,
+          "worst": 97,
+          "threshold": 0,
+          "raw_value": 12847,
+          "status": "OK"
+        },
+        {
+          "id": 10,
+          "name": "Spin_Retry_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 12,
+          "name": "Power_Cycle_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 14,
+          "status": "OK"
+        },
+        {
+          "id": 194,
+          "name": "Temperature_Celsius",
+          "value": 113,
+          "worst": 103,
+          "threshold": 0,
+          "raw_value": 34,
+          "status": "OK"
+        },
+        {
+          "id": 197,
+          "name": "Current_Pending_Sector",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 198,
+          "name": "Offline_Uncorrectable",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 199,
+          "name": "UDMA_CRC_Error_Count",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "device": "/dev/loop12",
+      "model": "WDC WUH721818ALE6L4",
+      "serial": "WMC5G3N7P",
+      "firmware": "83.00A83",
+      "smart_health": "PASSED",
+      "temperature_c": 34,
+      "power_on_hours": 12847,
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Raw_Read_Error_Rate",
+          "value": 200,
+          "worst": 200,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 3,
+          "name": "Spin_Up_Time",
+          "value": 176,
+          "worst": 175,
+          "threshold": 21,
+          "raw_value": 4375,
+          "status": "OK"
+        },
+        {
+          "id": 4,
+          "name": "Start_Stop_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 18,
+          "status": "OK"
+        },
+        {
+          "id": 5,
+          "name": "Reallocated_Sector_Ct",
+          "value": 200,
+          "worst": 200,
+          "threshold": 140,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 7,
+          "name": "Seek_Error_Rate",
+          "value": 200,
+          "worst": 200,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 9,
+          "name": "Power_On_Hours",
+          "value": 97,
+          "worst": 97,
+          "threshold": 0,
+          "raw_value": 12847,
+          "status": "OK"
+        },
+        {
+          "id": 10,
+          "name": "Spin_Retry_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 12,
+          "name": "Power_Cycle_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 14,
+          "status": "OK"
+        },
+        {
+          "id": 194,
+          "name": "Temperature_Celsius",
+          "value": 113,
+          "worst": 103,
+          "threshold": 0,
+          "raw_value": 34,
+          "status": "OK"
+        },
+        {
+          "id": 197,
+          "name": "Current_Pending_Sector",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 198,
+          "name": "Offline_Uncorrectable",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 199,
+          "name": "UDMA_CRC_Error_Count",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "device": "/dev/loop13",
+      "model": "WDC WUH721818ALE6L4",
+      "serial": "WMC5G3N7P",
+      "firmware": "83.00A83",
+      "smart_health": "PASSED",
+      "temperature_c": 34,
+      "power_on_hours": 12847,
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Raw_Read_Error_Rate",
+          "value": 200,
+          "worst": 200,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 3,
+          "name": "Spin_Up_Time",
+          "value": 176,
+          "worst": 175,
+          "threshold": 21,
+          "raw_value": 4375,
+          "status": "OK"
+        },
+        {
+          "id": 4,
+          "name": "Start_Stop_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 18,
+          "status": "OK"
+        },
+        {
+          "id": 5,
+          "name": "Reallocated_Sector_Ct",
+          "value": 200,
+          "worst": 200,
+          "threshold": 140,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 7,
+          "name": "Seek_Error_Rate",
+          "value": 200,
+          "worst": 200,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 9,
+          "name": "Power_On_Hours",
+          "value": 97,
+          "worst": 97,
+          "threshold": 0,
+          "raw_value": 12847,
+          "status": "OK"
+        },
+        {
+          "id": 10,
+          "name": "Spin_Retry_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 51,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 12,
+          "name": "Power_Cycle_Count",
+          "value": 100,
+          "worst": 100,
+          "threshold": 0,
+          "raw_value": 14,
+          "status": "OK"
+        },
+        {
+          "id": 194,
+          "name": "Temperature_Celsius",
+          "value": 113,
+          "worst": 103,
+          "threshold": 0,
+          "raw_value": 34,
+          "status": "OK"
+        },
+        {
+          "id": 197,
+          "name": "Current_Pending_Sector",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 198,
+          "name": "Offline_Uncorrectable",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        },
+        {
+          "id": 199,
+          "name": "UDMA_CRC_Error_Count",
+          "value": 200,
+          "worst": 200,
+          "threshold": 0,
+          "raw_value": 0,
+          "status": "OK"
+        }
+      ]
+    }
+  ],
+  "thermals": [
+    {
+      "sensor": "coretemp-isa-0000",
+      "component": "CPU Package",
+      "temp_c": 62.0,
+      "high_c": 90.0,
+      "crit_c": 100.0,
+      "status": "OK"
+    },
+    {
+      "sensor": "coretemp-isa-0000",
+      "component": "Core 0",
+      "temp_c": 58.0,
+      "high_c": 90.0,
+      "crit_c": 100.0,
+      "status": "OK"
+    },
+    {
+      "sensor": "coretemp-isa-0000",
+      "component": "Core 1",
+      "temp_c": 61.0,
+      "high_c": 90.0,
+      "crit_c": 100.0,
+      "status": "OK"
+    },
+    {
+      "sensor": "nct6798-isa-0290",
+      "component": "System Temp",
+      "temp_c": 38.0,
+      "high_c": 75.0,
+      "crit_c": 85.0,
+      "status": "OK"
+    }
+  ],
+  "edac_errors": [],
+  "dmesg_entries": [
+    {
+      "timestamp": 84291.0,
+      "level": "err",
+      "message": "blk_update_request: critical medium error, dev sdb, sector 4096 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0"
+    },
+    {
+      "timestamp": 84291.001,
+      "level": "err",
+      "message": "md/raid:md0: Disk failure on loop10, disabling device."
+    },
+    {
+      "timestamp": 84291.002,
+      "level": "warning",
+      "message": "md/raid:md0: Operation continuing on 2 devices."
+    },
+    {
+      "timestamp": 84291.21,
+      "level": "info",
+      "message": "md: recovery of RAID array md0"
+    },
+    {
+      "timestamp": 84291.211,
+      "level": "info",
+      "message": "md: minimum _guaranteed_ speed: 1000 KB/sec/disk."
+    },
+    {
+      "timestamp": 84291.212,
+      "level": "info",
+      "message": "md: using maximum available idle IO bandwidth for recovery."
+    },
+    {
+      "timestamp": 84291.213,
+      "level": "info",
+      "message": "md: md0: recovery done."
+    }
+  ],
+  "fan_rpms": {
+    "CPU_FAN": 3200,
+    "SYS_FAN1": 1850,
+    "SYS_FAN2": 1830,
+    "SYS_FAN3": 1810
+  },
+  "overall_severity": "CRITICAL"
+}
